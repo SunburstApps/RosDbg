@@ -19,8 +19,6 @@
             <File Id="$(var.RosDBG.TargetFileName)" Name="$(var.RosDBG.TargetFileName)" Source="$(var.RosDBG.TargetPath)" DiskId="1" KeyPath="yes">
               <Shortcut Id="startmenuRosDbg" Directory="ProgramMenuDir" Name="ReactOS Remote Debugger" WorkingDirectory='INSTALLDIR'
                 Icon="$(var.RosDBG.TargetFileName)" IconIndex="0"  Advertise="yes" />
-              <Shortcut Id="desktopRosDbg" Directory="DesktopFolder" Name="ReactOS Remote Debugger" WorkingDirectory='INSTALLDIR'
-                Icon="$(var.RosDBG.TargetFileName)" IconIndex="0" Advertise="yes" />
             </File>
           </Component>
         </Directory>
@@ -36,7 +34,6 @@
           </Component >
         </Directory>
       </Directory>
-      <Directory Id="DesktopFolder" Name="Desktop" />
       
     </Directory>
 
