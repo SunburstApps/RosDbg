@@ -31,10 +31,10 @@
             <RegistryValue Root='HKCU' Key='SOFTWARE\ReactOS\RosDbg'
                           Type='string' Value='StartMenuFolder'
                           KeyPath='yes' />
-          </Component >
+          </Component>
         </Directory>
       </Directory>
-      
+
     </Directory>
 
     <Icon Id="$(var.RosDBG.TargetFileName)" SourceFile="$(var.RosDBG.TargetPath)" />
